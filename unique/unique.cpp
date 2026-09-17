@@ -9,6 +9,8 @@ class Student{
 };
 
 int main(){
-    unique_ptr<Student> ptr = make_unique<Student>():
-    ptr->display()
+    unique_ptr<Student> ptr = make_unique<Student>();
+    ptr->display();
+    // ptr2->display();
+    return 0;
 }
